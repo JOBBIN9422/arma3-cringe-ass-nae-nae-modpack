@@ -82,16 +82,21 @@ class cfgVehicles
 		};
 	};
 	
-    //GUERILLA FATIGUES (ERDL) UNIT
-	class AT_soldier_guerilla_fatigues_erdl: B_Soldier_base_F
+    //GUERRILLA FATIGUES BASE UNIT
+	class AT_soldier_guerrilla_base: B_Soldier_base_F
 	{
 		author = "JOBBIN";
 		scope = 1;							
 		scopeCurator = 0;					
-		scopeArsenal = 0;					
-		displayName = "Guerilla (ERDL)";
+		scopeArsenal = 0;
 		model = "\A3\Characters_F_Bootcamp\Guerrilla\ig_guerrilla_6_1.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
+	};
+	
+    //GUERILLA FATIGUES (ERDL) UNIT
+	class AT_soldier_guerilla_fatigues_erdl: AT_soldier_guerrilla_base
+	{				
+		displayName = "Guerilla (ERDL)";
 		hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_erdl.paa"};
 		uniformClass = "AT_uniform_guerilla_fatigues_erdl"; // This links this soldier to a particular uniform.
 	};
@@ -101,7 +106,7 @@ class cfgVehicles
 	{
 		scope = 2;
 		scopeCurator = 2;
-		displayName = "Guerilla Fatigues (ERDL)";
+		displayName = "Guerrilla Fatigues (ERDL)";
 		author = "JOBBIN";
 		vehicleClass = ItemsUniforms;
 		model = "\A3\Weapons_f\dummyweapon.p3d";
@@ -110,6 +115,60 @@ class cfgVehicles
 			class AT_soldier_guerilla_fatigues_erdl
 			{
 				name = AT_soldier_guerilla_fatigues_erdl;
+				count = 1;
+			};
+		};
+	};
+	
+	//GUERILLA FATIGUES (FORKLIFT DRIVER) UNIT
+	class AT_soldier_guerilla_fatigues_forklift: AT_soldier_guerrilla_base
+	{				
+		displayName = "Guerrilla (Forklift Driver)";
+		hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatigues_forklift.paa"};
+		uniformClass = "AT_uniform_guerilla_fatigues_forklift"; // This links this soldier to a particular uniform.
+	};
+	
+	//GUERILLA FATIGUES (FORKLIFT DRIVER) GROUND HOLDER
+	class Item_U_AT_soldier_guerilla_forklift_new: Item_Base_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Guerrilla Fatigues (Forklift Driver)";
+		author = "JOBBIN";
+		vehicleClass = ItemsUniforms;
+		model = "\A3\Weapons_f\dummyweapon.p3d";
+		class TransportItems
+		{
+			class AT_soldier_guerilla_fatigues_forklift
+			{
+				name = AT_soldier_guerilla_fatigues_forklift;
+				count = 1;
+			};
+		};
+	};
+	
+	//GUERILLA FATIGUES (MORNING WOOD) UNIT
+	class AT_soldier_guerilla_fatigues_morningwood: AT_soldier_guerrilla_base
+	{				
+		displayName = "Guerrilla (Morning Wood)";
+		hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatigues_morningwood.paa"};
+		uniformClass = "AT_uniform_guerilla_fatigues_morningwood"; // This links this soldier to a particular uniform.
+	};
+	
+	//GUERILLA FATIGUES (MORNING WOOD) GROUND HOLDER
+	class Item_U_AT_soldier_guerilla_morningwood_new: Item_Base_F
+	{
+		scope = 2;
+		scopeCurator = 2;
+		displayName = "Guerrilla Fatigues (Morning Wood)";
+		author = "JOBBIN";
+		vehicleClass = ItemsUniforms;
+		model = "\A3\Weapons_f\dummyweapon.p3d";
+		class TransportItems
+		{
+			class AT_soldier_guerilla_fatigues_morningwood
+			{
+				name = AT_soldier_guerilla_fatigues_morningwood;
 				count = 1;
 			};
 		};
@@ -142,15 +201,31 @@ class cfgWeapons
 		};
 	};
 	
-	//GAMER SHIRT UNIFORM
-	class AT_uniform_gamer: Uniform_Base
+	//T-SHIRT/FATIGUES BASE CLASS 
+	class TShirt_Base: Uniform_Base
 	{
 		author = "JOBBIN";
-		scope = 2;
-		displayName = "Gamer Shirt";
+		scope = 0;
 		picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_tshirt_CA.paa";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier.p3d";
-		hiddenSelections[] = {"Camo"};
+		hiddenSelections[] = {"Camo", "insignia"};
+	};
+	
+	//GUERRILLA FATIGUES BASE CLASS
+	class Fatigues_Base: Uniform_Base
+	{
+		author = "JOBBIN";
+		scope = 0;
+		picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
+		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier.p3d";
+		hiddenSelections[] = {"Camo", "insignia"};
+	};
+	
+	//GAMER SHIRT UNIFORM
+	class AT_uniform_gamer: TShirt_Base
+	{
+	    scope = 2;
+		displayName = "Gamer Shirt";
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
 			
 		class ItemInfo: UniformItem
@@ -163,14 +238,10 @@ class cfgWeapons
 	};
 
 	//GUERILLA FATIGUES (ERDL) UNIFORM
-	class AT_uniform_guerilla_fatigues_erdl: Uniform_Base
+	class AT_uniform_guerilla_fatigues_erdl: Fatigues_Base
 	{
-		author = "JOBBIN";
 		scope = 2;
-		displayName = "Guerilla Fatigues (ERDL)";
-		picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier.p3d";
-		hiddenSelections[] = {"Camo"};
+		displayName = "Guerrilla Fatigues (ERDL)"
 		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
 			
 		class ItemInfo: UniformItem
@@ -182,6 +253,37 @@ class cfgWeapons
 		};
 	};
 	
+	//GUERILLA FATIGUES (FORKLIFT DRIVER) UNIFORM
+	class AT_uniform_guerilla_fatigues_forklift: Fatigues_Base
+	{
+		scope = 2;
+		displayName = "Guerrilla Fatigues (Forklift Driver)"
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
+			
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = AT_soldier_guerilla_fatigues_forklift;
+			containerClass = Supply40;
+			mass = 40;
+		};
+	};
+	
+	//GUERILLA FATIGUES (MORNING WOOD) UNIFORM
+	class AT_uniform_guerilla_fatigues_morningwood: Fatigues_Base
+	{
+		scope = 2;
+		displayName = "Guerrilla Fatigues (Morning Wood)"
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
+			
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = AT_soldier_guerilla_fatigues_morningwood;
+			containerClass = Supply40;
+			mass = 40;
+		};
+	};
 	
 	class ItemCore;
 	class Vest_Camo_Base: ItemCore
