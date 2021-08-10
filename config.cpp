@@ -29,57 +29,15 @@ class cfgVehicles
 		uniformClass = "AT_uniform_fisherman"; // This links this soldier to a particular uniform.
 	};
 	
-	//FISHING SHIRT GROUND HOLDER
-	class Item_Base_F;
-	class Item_U_AT_soldier_fisherman_new: Item_Base_F
-	{
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Fishing Shirt";
-		author = "JOBBIN";
-		vehicleClass = ItemsUniforms;
-		model = "\A3\Weapons_f\dummyweapon.p3d";
-		class TransportItems
-		{
-			class AT_soldier_fisherman
-			{
-				name = AT_soldier_fisherman;
-				count = 1;
-			};
-		};
-	};
-	
-	//GAMER SHIRT UNIT
-	class AT_soldier_gamer: B_Soldier_base_F
+	//MULTICAM PANTS/T-SHIRT BASE CLASS
+	class AT_soldier_mcam_tshirt_base: B_Soldier_base_F
 	{
 		author = "JOBBIN";
 		scope = 1;							
 		scopeCurator = 0;					
 		scopeArsenal = 0;					
-		displayName = "Gamer";
 		model = "\A3\Characters_F\BLUFOR\b_soldier_02.p3d";
 		hiddenSelections[] = {"Camo", "Camo2", "insignia"};
-		hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing1_co.paa", "\apptac_uniforms\textures\gamer_shirt.paa"};
-		uniformClass = "AT_uniform_gamer"; // This links this soldier to a particular uniform.
-	};
-	
-	//GAMER SHIRT GROUND HOLDER
-	class Item_U_AT_soldier_gamer_new: Item_Base_F
-	{
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Gamer Shirt";
-		author = "JOBBIN";
-		vehicleClass = ItemsUniforms;
-		model = "\A3\Weapons_f\dummyweapon.p3d";
-		class TransportItems
-		{
-			class AT_soldier_gamer
-			{
-				name = AT_soldier_gamer;
-				count = 1;
-			};
-		};
 	};
 	
     //GUERRILLA FATIGUES BASE UNIT
@@ -93,31 +51,20 @@ class cfgVehicles
 		hiddenSelections[] = {"Camo", "insignia"};
 	};
 	
+	//GAMER SHIRT UNIT
+	class AT_soldier_gamer: AT_soldier_mcam_tshirt_base
+	{					
+		displayName = "Gamer";
+		hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing1_co.paa", "\apptac_uniforms\textures\gamer_shirt.paa"};
+		uniformClass = "AT_uniform_gamer"; // This links this soldier to a particular uniform.
+	};
+	
     //GUERILLA FATIGUES (ERDL) UNIT
 	class AT_soldier_guerilla_fatigues_erdl: AT_soldier_guerrilla_base
 	{				
 		displayName = "Guerilla (ERDL)";
 		hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_erdl.paa"};
 		uniformClass = "AT_uniform_guerilla_fatigues_erdl"; // This links this soldier to a particular uniform.
-	};
-	
-	//GUERILLA FATIGUES (ERDL) GROUND HOLDER
-	class Item_U_AT_soldier_guerilla_erdl_new: Item_Base_F
-	{
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Guerrilla Fatigues (ERDL)";
-		author = "JOBBIN";
-		vehicleClass = ItemsUniforms;
-		model = "\A3\Weapons_f\dummyweapon.p3d";
-		class TransportItems
-		{
-			class AT_soldier_guerilla_fatigues_erdl
-			{
-				name = AT_soldier_guerilla_fatigues_erdl;
-				count = 1;
-			};
-		};
 	};
 	
 	//GUERILLA FATIGUES (FORKLIFT DRIVER) UNIT
@@ -128,50 +75,12 @@ class cfgVehicles
 		uniformClass = "AT_uniform_guerilla_fatigues_forklift"; // This links this soldier to a particular uniform.
 	};
 	
-	//GUERILLA FATIGUES (FORKLIFT DRIVER) GROUND HOLDER
-	class Item_U_AT_soldier_guerilla_forklift_new: Item_Base_F
-	{
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Guerrilla Fatigues (Forklift Driver)";
-		author = "JOBBIN";
-		vehicleClass = ItemsUniforms;
-		model = "\A3\Weapons_f\dummyweapon.p3d";
-		class TransportItems
-		{
-			class AT_soldier_guerilla_fatigues_forklift
-			{
-				name = AT_soldier_guerilla_fatigues_forklift;
-				count = 1;
-			};
-		};
-	};
-	
 	//GUERILLA FATIGUES (MORNING WOOD) UNIT
 	class AT_soldier_guerilla_fatigues_morningwood: AT_soldier_guerrilla_base
 	{				
 		displayName = "Guerrilla (Morning Wood)";
 		hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatigues_morningwood.paa"};
 		uniformClass = "AT_uniform_guerilla_fatigues_morningwood"; // This links this soldier to a particular uniform.
-	};
-	
-	//GUERILLA FATIGUES (MORNING WOOD) GROUND HOLDER
-	class Item_U_AT_soldier_guerilla_morningwood_new: Item_Base_F
-	{
-		scope = 2;
-		scopeCurator = 2;
-		displayName = "Guerrilla Fatigues (Morning Wood)";
-		author = "JOBBIN";
-		vehicleClass = ItemsUniforms;
-		model = "\A3\Weapons_f\dummyweapon.p3d";
-		class TransportItems
-		{
-			class AT_soldier_guerilla_fatigues_morningwood
-			{
-				name = AT_soldier_guerilla_fatigues_morningwood;
-				count = 1;
-			};
-		};
 	};
 };
 
