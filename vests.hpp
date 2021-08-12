@@ -55,6 +55,68 @@ class V_press_vest_base : Vest_Camo_Base
 	};
 };
 
+//CARRIER RIG BASE CLASS 
+class V_carrier_rig_base : Vest_Camo_Base
+{
+	author = "JOBBIN";
+	scope = 0;
+	displayName = "Carrier Rig Template";
+	picture = "\A3\Characters_F\data\ui\icon_v_plate_carrier_2_ca.paa";
+	model = "\A3\Characters_F\blufor\equip_b_vest02.p3d";
+	class ItemInfo: ItemInfo
+	{
+		uniformModel = "\A3\Characters_F\blufor\equip_b_vest02.p3d";		
+		containerClass = Supply140;		
+		mass = 80;
+		
+		class HitpointsProtectionInfo //more info at: https://community.bistudio.com/wiki/Arma_3_Soldier_Protection
+		{
+			class Chest
+			{
+				hitPointName = "HitChest";
+				armor = 20;
+				passThrough = 0.2;
+			};
+			class Diaphragm
+			{
+				hitpointName	= "HitDiaphragm";
+				armor			= 20;
+				passThrough		= 0.2;
+			};
+			class Abdomen
+			{
+				hitpointName	= "HitAbdomen";
+				armor			= 20;
+				passThrough		= 0.2;
+			};
+		};
+	};
+};
+
+//ERDL carrier rig
+class V_carrier_rig_erdl: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (ERDL)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_erdl.paa"};
+};
+
+//Ahegao carrier rig
+class V_carrier_rig_ahegao: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Ahegao)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_ahegao.paa"};
+};
+
+//Solo cup carrier rig
+class V_carrier_rig_solo: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Solo Cup)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_solo.paa"};
+};
+
 class V_vest_cuck: V_press_vest_base
 {
 	scope = 2;
@@ -92,6 +154,14 @@ class V_vest_apptac_urban: V_press_vest_base
 	scope = 2;
 	displayName = "Vest (AppTac - Urban)";
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\vest_apptac_urban.paa"};
+};
+
+//APPTAC VEST (urban 2)
+class V_vest_apptac_urban2: V_press_vest_base
+{
+	scope = 2;
+	displayName = "Vest (AppTac - Urban ERDL)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\vest_apptac_urban2.paa"};
 };
 
 //GIANT COCKMAN VEST (for u steven)

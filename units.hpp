@@ -44,6 +44,14 @@ class AT_soldier_gamer: AT_soldier_mcam_tshirt_base
 	uniformClass = "AT_uniform_gamer"; // This links this soldier to a particular uniform.
 };
 
+//APPTAC SHIRT UNIT
+class AT_soldier_apptac_shirt: AT_soldier_mcam_tshirt_base
+{
+	displayName = "AppTac Member";
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing1_co.paa", "\apptac_uniforms\textures\apptac_shirt.paa"};
+	uniformClass = "AT_uniform_apptac_shirt";
+};
+
 //GUERILLA FATIGUES (ERDL) UNIT
 class AT_soldier_guerilla_fatigues_erdl: AT_soldier_guerrilla_base
 {				
