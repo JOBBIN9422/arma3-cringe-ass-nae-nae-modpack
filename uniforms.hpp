@@ -58,6 +58,36 @@ class AT_uniform_gamer: TShirt_Base
 	};
 };
 
+//BOOMER SHIRT UNIFORM
+class AT_uniform_boomer: TShirt_Base
+{
+	scope = 2;
+	displayName = "Boomer Shirt";
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_boomer;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//"STOMP MY FLAG" SHIRT UNIFORM
+class AT_uniform_patriot: TShirt_Base
+{
+	scope = 2;
+	displayName = "Patriot Shirt";
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_patriot;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
 //APPTAC SHIRT UNIFORM
 class AT_uniform_apptac_shirt: TShirt_Base
 {
@@ -113,6 +143,66 @@ class AT_uniform_guerilla_fatigues_morningwood: Fatigues_Base
 	{
 		uniformModel = "-";
 		uniformClass = AT_soldier_guerilla_fatigues_morningwood;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (LDF WOODLAND) UNIFORM
+class AT_uniform_guerilla_fatigues_ldf: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (LDF Woodland)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_ldf;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (BUTAN 1) UNIFORM
+class AT_uniform_guerilla_fatigues_butan_1: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Butan 1)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_butan_1;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (BUTAN 2) UNIFORM
+class AT_uniform_guerilla_fatigues_butan_2: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Butan 2)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_butan_2;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (MONEY) UNIFORM
+class AT_uniform_guerilla_fatigues_money: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Money)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_money;
 		containerClass = Supply40;
 		mass = 40;
 	};

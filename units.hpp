@@ -75,3 +75,52 @@ class AT_soldier_guerilla_fatigues_morningwood: AT_soldier_guerrilla_base
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatigues_morningwood.paa"};
 	uniformClass = "AT_uniform_guerilla_fatigues_morningwood"; // This links this soldier to a particular uniform.
 };
+
+//GUERILLA FATIGUES (LDF WOODLAND) UNIT
+class AT_soldier_guerilla_fatigues_ldf: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (LDF Woodland)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_ldf.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_ldf"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (BUTAN 1) UNIT
+class AT_soldier_guerilla_fatigues_butan_1: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (Butan 1)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_butan_1.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_butan_1"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (BUTAN 2) UNIT
+class AT_soldier_guerilla_fatigues_butan_2: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (Butan 2)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_butan_2.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_butan_2"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (MONEY) UNIT
+class AT_soldier_guerilla_fatigues_money: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (Money)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_money.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_money"; // This links this soldier to a particular uniform.
+};
+
+
+//BOOMER SHIRT UNIT
+class AT_soldier_boomer: AT_soldier_mcam_tshirt_base
+{					
+	displayName = "Boomer";
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing1_co.paa", "\apptac_uniforms\textures\shirt_boomer.paa"};
+	uniformClass = "AT_uniform_boomer"; // This links this soldier to a particular uniform.
+};
+
+//"STOMP MY FLAG" UNIT
+class AT_soldier_patriot: AT_soldier_mcam_tshirt_base
+{					
+	displayName = "Patriot";
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\BLUFOR\Data\clothing1_co.paa", "\apptac_uniforms\textures\shirt_stomp_flag.paa"};
+	uniformClass = "AT_uniform_patriot"; // This links this soldier to a particular uniform.
+};
