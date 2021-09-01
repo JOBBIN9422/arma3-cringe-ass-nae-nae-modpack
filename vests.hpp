@@ -117,6 +117,46 @@ class V_carrier_rig_solo: V_carrier_rig_base
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_solo.paa"};
 };
 
+//Butan 1 carrier rig
+class V_carrier_butan_1: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Butan 1)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_butan_1.paa"};
+};
+
+//Butan 2 carrier rig
+class V_carrier_butan_2: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Butan 2)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_butan_2.paa"};
+};
+
+//Latvian TTsKO carrier rig
+class V_carrier_ttsko_latvia: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Latvian TTsKO)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_ttsko_latvia.paa"};
+};
+
+//Rust carrier rig
+class V_carrier_rust: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Digital Rust)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_rust.paa"};
+};
+
+//Money carrier rig
+class V_carrier_money: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Money)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_money.paa"};
+};
+
 class V_vest_cuck: V_press_vest_base
 {
 	scope = 2;
@@ -129,7 +169,7 @@ class V_vest_viper: V_press_vest_base
 {
 	scope = 2;
 	displayName = "Vest (Viper)";
-	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\vest_viper.paa"};
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\vest_viper_2.paa"};
 };
 
 //WOODLAND VEST
@@ -201,7 +241,7 @@ class V_vest_ahegao_olive: V_press_vest_base
 {
 	scope = 2;
 	displayName = "Vest (Ahegao - Olive)";
-	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\vest_ahegao_olive.paa"};
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\vest_ahegao_olive2.paa"};
 };
 
 //AHEGAO VEST (urban)
@@ -234,4 +274,44 @@ class V_vest_solo: V_press_vest_base
 	scope = 2;
 	displayName = "Vest (Solo Cup)";
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\vest_solo.paa"};
+};
+
+//BUTAN 1 VEST
+class V_vest_butan_1: V_press_vest_base
+{
+	scope = 2;
+	displayName = "Vest (Butan 1)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\vest_butan_1.paa"};
+};
+
+//BUTAN 2 VEST
+class V_vest_butan_2: V_press_vest_base
+{
+	scope = 2;
+	displayName = "Vest (Butan 2)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\vest_butan_2.paa"};
+};
+
+//LATVIAN TTSKO VEST
+class V_vest_ttsko_latvia: V_press_vest_base
+{
+	scope = 2;
+	displayName = "Vest (Latvian TTsKO)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\vest_ttsko_latvia.paa"};
+};
+
+//MONEY VEST
+class V_vest_money: V_press_vest_base
+{
+	scope = 2;
+	displayName = "Vest (Money)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\vest_money.paa"};
+};
+
+//DOGE VEST
+class V_vest_doge: V_press_vest_base
+{
+	scope = 2;
+	displayName = "Vest (DogeCam)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\vest_doge.paa"};
 };
