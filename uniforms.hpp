@@ -23,6 +23,17 @@ class Fatigues_Base: Uniform_Base
 	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa"};
 };
 
+//AAF OFFICER FATIGUES BASE CLASS
+class AAF_Officer_Fatigues_Base: Uniform_Base
+{
+	author = "JOBBIN";
+	scope = 0;
+	picture = "\A3\characters_f\data\ui\icon_U_IR_Officer_spc_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier.p3d";
+	hiddenSelections[] = {"Camo", "insignia"};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_indep_co.paa"};
+};
+
 //FISHING SHIRT UNIFORM
 class AT_uniform_fisherman: Uniform_Base
 {
@@ -107,7 +118,7 @@ class AT_uniform_apptac_shirt: TShirt_Base
 class AT_uniform_guerilla_fatigues_erdl: Fatigues_Base
 {
 	scope = 2;
-	displayName = "Guerrilla Fatigues (ERDL)"
+	displayName = "Guerrilla Fatigues (M81)"
 		
 	class ItemInfo: UniformItem
 	{
@@ -203,6 +214,188 @@ class AT_uniform_guerilla_fatigues_money: Fatigues_Base
 	{
 		uniformModel = "-";
 		uniformClass = AT_soldier_guerilla_fatigues_money;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (MULTICAM) UNIFORM
+class AT_uniform_guerilla_fatigues_multicam: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Multicam)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_multicam;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (DRIP) UNIFORM
+class AT_uniform_guerilla_fatigues_drip: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Drip Monochrome)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_drip;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (DRIP 2) UNIFORM
+class AT_uniform_guerilla_fatigues_drip_2: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Drip)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_drip_2;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (MGS3 LEOPARD) UNIFORM
+class AT_uniform_guerilla_fatigues_leopard: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (MGS3 Leopard)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_leopard;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (REALTREE) UNIFORM
+class AT_uniform_guerilla_fatigues_realtree: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Realtree)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_realtree;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (REALTREE/FISHING SHIRT) UNIFORM
+class AT_uniform_guerilla_fatigues_realtree_fishing_top: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Realtree/Fishing Shirt)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_realtree_fishing_top;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+/*
+//GUERILLA FATIGUES (MGS3 ERDL) UNIFORM
+class AT_uniform_guerilla_fatigues_mgs3_erdl: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (MGS3 ERDL)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_mgs3_erdl;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+*/
+
+//AAF OFFICER FATIGUES (MGS3 LEOPARD) UNIFORM
+class AT_uniform_aaf_officer_fatigues_leopard: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (MGS3 Leopard)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_leopard;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (M81 JACKET) UNIFORM
+class AT_uniform_aaf_officer_fatigues_m81_jacket: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (M81/Khaki)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_m81_jacket;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (M81 FULL) UNIFORM
+class AT_uniform_aaf_officer_fatigues_m81_full: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (M81)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_m81_full;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (MULTICAM JACKET) UNIFORM
+class AT_uniform_aaf_officer_fatigues_multicam_jacket: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (Multicam/Khaki)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_multicam_jacket;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (MULTICAM FULL) UNIFORM
+class AT_uniform_aaf_officer_fatigues_multicam_full: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (Multicam)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_multicam_full;
 		containerClass = Supply40;
 		mass = 40;
 	};

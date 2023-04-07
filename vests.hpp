@@ -93,13 +93,60 @@ class V_carrier_rig_base : Vest_Camo_Base
 	};
 };
 
+//TACTICAL VEST BASE CLASS 
+class V_tac_vest_base : Vest_Camo_Base
+{
+	author = "JOBBIN";
+	scope = 0;
+	displayName = "Tactical Vest Template";
+	picture = "\A3\Characters_F\data\ui\icon_V_TacVest_oli_CA.paa";
+	model = "\A3\Characters_F\common\equip_tacticalvest.p3d";
+	class ItemInfo: ItemInfo
+	{
+		uniformModel = "\A3\Characters_F\common\equip_tacticalvest.p3d";	
+		containerClass = Supply100;		
+		mass = 50;
+		
+		class HitpointsProtectionInfo //more info at: https://community.bistudio.com/wiki/Arma_3_Soldier_Protection
+		{
+			class Chest
+			{
+				hitPointName = "HitChest";
+				armor = 12;
+				passThrough = 0.4;
+			};
+			class Diaphragm
+			{
+				hitpointName	= "HitDiaphragm";
+				armor			= 12;
+				passThrough		= 0.4;
+			};
+			class Abdomen
+			{
+				hitpointName	= "HitAbdomen";
+				armor			= 12;
+				passThrough		= 0.4;
+			};
+		};
+	};
+};
+
 //ERDL carrier rig
-class V_carrier_rig_erdl: V_carrier_rig_base
+class V_carrier_rig_m81: V_carrier_rig_base
 {
 	scope = 2;
-	displayName = "Carrier Rig (ERDL)";
-	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_erdl.paa"};
+	displayName = "Carrier Rig (M81)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_m81.paa"};
 };
+
+//UCP carrier rig
+class V_carrier_rig_ucp: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (UCP)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_ucp.paa"};
+};
+
 
 //Ahegao carrier rig
 class V_carrier_rig_ahegao: V_carrier_rig_base
@@ -155,6 +202,38 @@ class V_carrier_money: V_carrier_rig_base
 	scope = 2;
 	displayName = "Carrier Rig (Money)";
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_money.paa"};
+};
+
+//UCP-D apptac carrier rig
+class V_carrier_ucpd_apptac_logo: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (UCP-D)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_ucpd_apptac_logo.paa"};
+};
+
+//MM14 carrier rig
+class V_carrier_mm14: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (MM14)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_mm14.paa"};
+};
+
+//M81 lean carrier rig
+class V_carrier_m81_lean: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (M81-L)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_m81_lean.paa"};
+};
+
+//Versace carrier rig
+class V_carrier_versace: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Versace)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_versace.paa"};
 };
 
 class V_vest_cuck: V_press_vest_base
@@ -314,4 +393,28 @@ class V_vest_doge: V_press_vest_base
 	scope = 2;
 	displayName = "Vest (DogeCam)";
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\vest_doge.paa"};
+};
+
+//REALTREE TAC VEST
+class V_tac_vest_realtree: V_tac_vest_base
+{
+	scope = 2;
+	displayName = "Tactical Vest (RealTree)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\tacticalvest_realtree.paa"};
+};
+
+//BOTTOMLAND TAC VEST
+class V_tac_vest_bottomland: V_tac_vest_base
+{
+	scope = 2;
+	displayName = "Tactical Vest (Bottomland)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\tacticalvest_bottomland.paa"};
+};
+
+//MM14 TAC VEST
+class V_tac_vest_mm14: V_tac_vest_base
+{
+	scope = 2;
+	displayName = "Tactical Vest (MM14)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\tacticalvest_mm14.paa"};
 };
