@@ -170,6 +170,54 @@ class AT_soldier_guerilla_fatigues_realtree_fishing_top: AT_soldier_guerrilla_ba
 	uniformClass = "AT_uniform_guerilla_fatigues_realtree_fishing_top"; // This links this soldier to a particular uniform.
 };
 
+//GUERILLA FATIGUES (FLACHENTARN 1) UNIT
+class AT_soldier_guerilla_fatigues_flachentarn_1: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (Flachentarn 1)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_flachentarn_1.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_flachentarn_1"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (ALPENFLAGE) UNIT
+class AT_soldier_guerilla_fatigues_alpenflage: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (Alpenflage)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_alpenflage.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_alpenflage"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (MW19 ZEBRA BLUE/PINK) UNIT
+class AT_soldier_guerilla_fatigues_mw19zebra: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (MW19 Zebra Blue/Pink)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_mw19zebra_bluepink.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_mw19zebra"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (MW19 PINK TOPO) UNIT
+class AT_soldier_guerilla_fatigues_mw19pinktopo: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (MW19 Pink Topographic)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_PinkTopo.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_mw19pinktopo"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (MW19 ZEBRA CLASSIC) UNIT
+class AT_soldier_guerilla_fatigues_mw19zebraclassic: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (MW19 Zebra Classic)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_ZebraClassic.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_mw19zebraclassic"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (BENIS) UNIT
+class AT_soldier_guerilla_fatigues_benis: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (Dick Camo)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_benis.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_benis"; // This links this soldier to a particular uniform.
+};
+
 /*
 //GUERILLA FATIGUES (MGS3 ERDL) UNIT
 class AT_soldier_guerilla_fatigues_mgs3_erdl: AT_soldier_guerrilla_base
@@ -240,4 +288,112 @@ class AT_soldier_aaf_officer_fatigues_multicam_full: AT_soldier_aaf_officer_fati
 	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_multicam.paa", "\apptac_uniforms\textures\guerilla_fatiges_multicam.paa"};
 	uniformClass = "AT_uniform_aaf_officer_fatigues_multicam_full"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (REALTREE JACKET) UNIT
+class AT_soldier_aaf_officer_fatigues_realtree_jacket: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (RealTree/Khaki)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_realtree.paa", "\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_realtree_jacket"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (REALTREE FULL) UNIT
+class AT_soldier_aaf_officer_fatigues_realtree_full: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (RealTree)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_realtree.paa", "\apptac_uniforms\textures\guerilla_fatiges_realtree.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_realtree_full"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (FLACHENTARN 1 JACKET) UNIT
+class AT_soldier_aaf_officer_fatigues_flachentarn_1_jacket: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (Flachentarn 1/Khaki)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_flachentarn_1.paa", "\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_flachentarn_1_jacket"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (FLACHENTARN 1 FULL) UNIT
+class AT_soldier_aaf_officer_fatigues_flachentarn_1_full: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (Flachentarn 1)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_flachentarn_1.paa", "\apptac_uniforms\textures\guerilla_fatiges_flachentarn_1.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_flachentarn_1_full"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (ALPENFLAGE JACKET) UNIT
+class AT_soldier_aaf_officer_fatigues_alpenflage_jacket: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (Alpenflage/Khaki)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_alpenflage.paa", "\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_alpenflage_jacket"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (ALPENFLAGE FULL) UNIT
+class AT_soldier_aaf_officer_fatigues_alpenflage_full: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (Alpenflage)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_alpenflage.paa", "\apptac_uniforms\textures\guerilla_fatiges_alpenflage.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_alpenflage_full"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (MW19 ZEBRA BLUE/PINK JACKET) UNIT
+class AT_soldier_aaf_officer_fatigues_mw19zebrabluepink_jacket: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (MW19 Zebra Blue/Pink/Khaki)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\officer_spc_co_ZebraBluePink.paa", "\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_mw19zebrabluepink_jacket"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (MW19 ZEBRA BLUE/PINK FULL) UNIT
+class AT_soldier_aaf_officer_fatigues_mw19zebrabluepink_full: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (MW19 Zebra Blue/Pink)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\officer_spc_co_ZebraBluePink.paa", "\apptac_uniforms\textures\guerilla_fatiges_mw19zebra_bluepink.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_mw19zebrabluepink_full"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (MW19 ZEBRA CLASSIC JACKET) UNIT
+class AT_soldier_aaf_officer_fatigues_mw19zebraclassic_jacket: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (MW19 Zebra Classic/Khaki)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\officer_spc_co_ZebraClassic.paa", "\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_mw19zebraclassic_jacket"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (MW19 ZEBRA CLASSIC FULL) UNIT
+class AT_soldier_aaf_officer_fatigues_mw19zebraclassic_full: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (MW19 Zebra Classic)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\officer_spc_co_ZebraClassic.paa", "\apptac_uniforms\textures\guerilla_fatiges_ZebraClassic.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_mw19zebraclassic_full"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (MW19 PINK TOPO JACKET) UNIT
+class AT_soldier_aaf_officer_fatigues_mw19pinktopo_jacket: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (MW19 Pink Topographic/Khaki)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\officer_spec_co_PinkTopo.paa", "\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_mw19pinktopo_jacket"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (MW19 PINK TOPO FULL) UNIT
+class AT_soldier_aaf_officer_fatigues_mw19pinktopo_full: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (MW19 Pink Topographic)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\officer_spec_co_PinkTopo.paa", "\apptac_uniforms\textures\guerilla_fatiges_PinkTopo.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_mw19pinktopo_full"; // This links this soldier to a particular uniform.
 };

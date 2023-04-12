@@ -309,6 +309,95 @@ class AT_uniform_guerilla_fatigues_realtree_fishing_top: Fatigues_Base
 	};
 };
 
+//GUERILLA FATIGUES (FLACHENTARN 1) UNIFORM
+class AT_uniform_guerilla_fatigues_flachentarn_1: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Flachentarn 1)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_flachentarn_1;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (ALPENFLAGE) UNIFORM
+class AT_uniform_guerilla_fatigues_alpenflage: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Alpenflage)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_alpenflage;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (MW19 ZEBRA) UNIFORM
+class AT_uniform_guerilla_fatigues_mw19zebra: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (MW19 Zebra Blue/Pink)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_mw19zebra;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (MW19 PINK TOPO) UNIFORM
+class AT_uniform_guerilla_fatigues_mw19pinktopo: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (MW19 Pink Topographic)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_mw19pinktopo;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (MW19 ZEBRA CLASSIC) UNIFORM
+class AT_uniform_guerilla_fatigues_mw19zebraclassic: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (MW19 Zebra Classic)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_mw19zebraclassic;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+class AT_uniform_guerilla_fatigues_benis: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Dick Camo)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_benis;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
 /*
 //GUERILLA FATIGUES (MGS3 ERDL) UNIFORM
 class AT_uniform_guerilla_fatigues_mgs3_erdl: Fatigues_Base
@@ -396,6 +485,186 @@ class AT_uniform_aaf_officer_fatigues_multicam_full: AAF_Officer_Fatigues_Base
 	{
 		uniformModel = "-";
 		uniformClass = AT_soldier_aaf_officer_fatigues_multicam_full;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (REALTREE JACKET) UNIFORM
+class AT_uniform_aaf_officer_fatigues_realtree_jacket: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (RealTree/Khaki)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_realtree_jacket;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (REALTREE FULL) UNIFORM
+class AT_uniform_aaf_officer_fatigues_realtree_full: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (RealTree)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_realtree_full;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (FLACHENTARN 1 JACKET) UNIFORM
+class AT_uniform_aaf_officer_fatigues_flachentarn_1_jacket: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (Flachentarn 1/Khaki)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_flachentarn_1_jacket;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (FLACHENTARN 1 FULL) UNIFORM
+class AT_uniform_aaf_officer_fatigues_flachentarn_1_full: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (Flachentarn 1)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_flachentarn_1_full;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (ALPENFLAGE JACKET) UNIFORM
+class AT_uniform_aaf_officer_fatigues_alpenflage_jacket: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (Alpenflage/Khaki)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_alpenflage_jacket;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (ALPENFLAGE FULL) UNIFORM
+class AT_uniform_aaf_officer_fatigues_alpenflage_full: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (Alpenflage)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_alpenflage_full;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (MW19 ZEBRA BLUE/PINK JACKET) UNIFORM
+class AT_uniform_aaf_officer_fatigues_mw19zebrabluepink_jacket: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (MW19 Zebra Blue/Pink/Khaki)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_mw19zebrabluepink_jacket;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (MW19 ZEBRA BLUE/PINK FULL) UNIFORM
+class AT_uniform_aaf_officer_fatigues_mw19zebrabluepink_full: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (MW19 Zebra Blue/Pink)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_mw19zebrabluepink_full;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (MW19 ZEBRA CLASSIC JACKET) UNIFORM
+class AT_uniform_aaf_officer_fatigues_mw19zebraclassic_jacket: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (MW19 Zebra Classic/Khaki)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_mw19zebraclassic_jacket;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (MW19 ZEBRA CLASSIC FULL) UNIFORM
+class AT_uniform_aaf_officer_fatigues_mw19zebraclassic_full: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (MW19 Zebra Classic)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_mw19zebraclassic_full;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (MW19 PINK TOPO JACKET) UNIFORM
+class AT_uniform_aaf_officer_fatigues_mw19pinktopo_jacket: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (MW19 Pink Topographic/Khaki)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_mw19pinktopo_jacket;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (MW19 PINK TOPO FULL) UNIFORM
+class AT_uniform_aaf_officer_fatigues_mw19pinktopo_full: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (MW19 Pink Topographic)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_mw19pinktopo_full;
 		containerClass = Supply40;
 		mass = 40;
 	};

@@ -236,11 +236,52 @@ class V_carrier_versace: V_carrier_rig_base
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_versace.paa"};
 };
 
-class V_vest_cuck: V_press_vest_base
+//RealTree carrier rig
+class V_carrier_realtree: V_carrier_rig_base
 {
 	scope = 2;
-	displayName = "Vest (C U C K)";
-	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\vest_cuck.paa"};
+	displayName = "Carrier Rig (Realtree)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_realtree.paa"};
+};
+
+//Flachentarn 1 carrier rig
+class V_carrier_flachentarn_1: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Flachentarn 1)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_flachentarn_1.paa"};
+};
+
+//Alpenflage carrier rig
+class V_carrier_alpenflage: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Alpenflage)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_alpenflage.paa"};
+};
+
+//LDF Woodland carrier rig
+class V_carrier_ldf: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (LDF Woodland)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_ldf.paa"};
+};
+
+//Multicam carrier rig
+class V_carrier_multicam: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Multicam)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_multicam.paa"};
+};
+
+//Supreme carrier rig
+class V_carrier_supreme: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Supreme)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_supreme.paa"};
 };
 
 //VIPER VEST
@@ -417,4 +458,28 @@ class V_tac_vest_mm14: V_tac_vest_base
 	scope = 2;
 	displayName = "Tactical Vest (MM14)";
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\tacticalvest_mm14.paa"};
+};
+
+//LDF TAC VEST
+class V_tac_vest_ldf: V_tac_vest_base
+{
+	scope = 2;
+	displayName = "Tactical Vest (LDF Woodland)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\tacticalvest_ldf.paa"};
+};
+
+//ALPENFLAGE TAC VEST
+class V_tac_vest_alpenflage: V_tac_vest_base
+{
+	scope = 2;
+	displayName = "Tactical Vest (Alpenflage)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\tacticalvest_alpenflage.paa"};
+};
+
+//MULTICAM TAC VEST
+class V_tac_vest_multicam: V_tac_vest_base
+{
+	scope = 2;
+	displayName = "Tactical Vest (Multicam)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\tacticalvest_multicam.paa"};
 };
