@@ -218,6 +218,38 @@ class AT_soldier_guerilla_fatigues_benis: AT_soldier_guerrilla_base
 	uniformClass = "AT_uniform_guerilla_fatigues_benis"; // This links this soldier to a particular uniform.
 };
 
+//GUERILLA FATIGUES (CHOCOLATE_CHIP) UNIT
+class AT_soldier_guerilla_fatigues_chocolate_chip: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (Chocolate Chip)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_chocolate_chip.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_chocolate_chip"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (DNC) UNIT
+class AT_soldier_guerilla_fatigues_dnc: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (Desert Night Camo)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_dnc.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_dnc"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (UCP) UNIT
+class AT_soldier_guerilla_fatigues_ucp: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (UCP)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_ucp.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_ucp"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (UCP-D) UNIT
+class AT_soldier_guerilla_fatigues_ucpd: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (UCP-D)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_ucpd.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_ucpd"; // This links this soldier to a particular uniform.
+};
+
 /*
 //GUERILLA FATIGUES (MGS3 ERDL) UNIT
 class AT_soldier_guerilla_fatigues_mgs3_erdl: AT_soldier_guerrilla_base
@@ -396,4 +428,76 @@ class AT_soldier_aaf_officer_fatigues_mw19pinktopo_full: AT_soldier_aaf_officer_
 	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\officer_spec_co_PinkTopo.paa", "\apptac_uniforms\textures\guerilla_fatiges_PinkTopo.paa"};
 	uniformClass = "AT_uniform_aaf_officer_fatigues_mw19pinktopo_full"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (CHOCOLATE CHIP JACKET) UNIT
+class AT_soldier_aaf_officer_fatigues_chocolate_chip_jacket: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (Chocolate Chip/Khaki)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_chocolate_chip.paa", "\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_chocolate_chip_jacket"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (CHOCOLATE CHIP FULL) UNIT
+class AT_soldier_aaf_officer_fatigues_chocolate_chip_full: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (Chocolate Chip)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_chocolate_chip.paa", "\apptac_uniforms\textures\guerilla_fatiges_chocolate_chip.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_chocolate_chip_full"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (DNC JACKET) UNIT
+class AT_soldier_aaf_officer_fatigues_dnc_jacket: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (Desert Night Camo/Khaki)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_dnc.paa", "\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_dnc_jacket"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (DNC FULL) UNIT
+class AT_soldier_aaf_officer_fatigues_dnc_full: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (Desert Night Camo)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_dnc.paa", "\apptac_uniforms\textures\guerilla_fatiges_dnc.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_dnc_full"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (UCP JACKET) UNIT
+class AT_soldier_aaf_officer_fatigues_ucp_jacket: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (UCP/Khaki)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_ucp.paa", "\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_ucp_jacket"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (UCP FULL) UNIT
+class AT_soldier_aaf_officer_fatigues_ucp_full: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (UCP)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_ucp.paa", "\apptac_uniforms\textures\guerilla_fatiges_ucp.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_ucp_full"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (UCP-D JACKET) UNIT
+class AT_soldier_aaf_officer_fatigues_ucpd_jacket: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (UCP-D/Khaki)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_ucpd.paa", "\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_ucpd_jacket"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (UCP-D FULL) UNIT
+class AT_soldier_aaf_officer_fatigues_ucpd_full: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (UCP-D)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_ucpd.paa", "\apptac_uniforms\textures\guerilla_fatiges_ucpd.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_ucpd_full"; // This links this soldier to a particular uniform.
 };

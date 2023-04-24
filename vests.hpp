@@ -284,6 +284,22 @@ class V_carrier_supreme: V_carrier_rig_base
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_supreme.paa"};
 };
 
+//Chocolate chip carrier rig
+class V_carrier_chocolate_chip: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Chocolate Chip)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_chocolate_chip.paa"};
+};
+
+//DNC carrier rig
+class V_carrier_dnc: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Desert Night Camo)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_dnc.paa"};
+};
+
 //VIPER VEST
 class V_vest_viper: V_press_vest_base
 {

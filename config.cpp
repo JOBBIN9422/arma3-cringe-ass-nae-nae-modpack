@@ -21,4 +21,5 @@ class cfgWeapons
 {
 	#include "uniforms.hpp"
 	#include "vests.hpp"
+	#include "headgear.hpp"
 };

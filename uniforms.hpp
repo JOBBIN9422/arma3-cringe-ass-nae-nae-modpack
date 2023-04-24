@@ -384,6 +384,7 @@ class AT_uniform_guerilla_fatigues_mw19zebraclassic: Fatigues_Base
 	};
 };
 
+//GUERILLA FATIGUES (BENIS) UNIFORM
 class AT_uniform_guerilla_fatigues_benis: Fatigues_Base
 {
 	scope = 2;
@@ -393,6 +394,66 @@ class AT_uniform_guerilla_fatigues_benis: Fatigues_Base
 	{
 		uniformModel = "-";
 		uniformClass = AT_soldier_guerilla_fatigues_benis;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (CHOCOLATE CHIP) UNIFORM
+class AT_uniform_guerilla_fatigues_chocolate_chip: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Chocolate Chip)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_chocolate_chip;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (DNC) UNIFORM
+class AT_uniform_guerilla_fatigues_dnc: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Desert Night Camo)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_dnc;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (UCP) UNIFORM
+class AT_uniform_guerilla_fatigues_ucp: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (UCP)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_ucp;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (UCP-D) UNIFORM
+class AT_uniform_guerilla_fatigues_ucpd: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (UCP-D)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_ucpd;
 		containerClass = Supply40;
 		mass = 40;
 	};
@@ -669,3 +730,124 @@ class AT_uniform_aaf_officer_fatigues_mw19pinktopo_full: AAF_Officer_Fatigues_Ba
 		mass = 40;
 	};
 };
+
+//AAF OFFICER FATIGUES (CHOCOLATE CHIP JACKET) UNIFORM
+class AT_uniform_aaf_officer_fatigues_chocolate_chip_jacket: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (Chocolate Chip/Khaki)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_chocolate_chip_jacket;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (CHOCOLATE CHIP FULL) UNIFORM
+class AT_uniform_aaf_officer_fatigues_chocolate_chip_full: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (Chocolate Chip)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_chocolate_chip_full;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (DNC JACKET) UNIFORM
+class AT_uniform_aaf_officer_fatigues_dnc_jacket: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (Desert Night Camo/Khaki)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_dnc_jacket;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (DNC FULL) UNIFORM
+class AT_uniform_aaf_officer_fatigues_dnc_full: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (Desert Night Camo)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_dnc_full;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (UCP JACKET) UNIFORM
+class AT_uniform_aaf_officer_fatigues_ucp_jacket: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (UCP/Khaki)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_ucp_jacket;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (UCP FULL) UNIFORM
+class AT_uniform_aaf_officer_fatigues_ucp_full: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (UCP)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_ucp_full;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (UCP-D JACKET) UNIFORM
+class AT_uniform_aaf_officer_fatigues_ucpd_jacket: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (UCP-D/Khaki)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_ucpd_jacket;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (UCP-D FULL) UNIFORM
+class AT_uniform_aaf_officer_fatigues_ucpd_full: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (UCP-D)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_ucpd_full;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
