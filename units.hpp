@@ -250,6 +250,14 @@ class AT_soldier_guerilla_fatigues_ucpd: AT_soldier_guerrilla_base
 	uniformClass = "AT_uniform_guerilla_fatigues_ucpd"; // This links this soldier to a particular uniform.
 };
 
+//GUERILLA FATIGUES (3 COLOR DESERT) UNIT
+class AT_soldier_guerilla_fatigues_3_color_desert: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (3 Color Desert)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_3_color_desert.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_3_color_desert"; // This links this soldier to a particular uniform.
+};
+
 /*
 //GUERILLA FATIGUES (MGS3 ERDL) UNIT
 class AT_soldier_guerilla_fatigues_mgs3_erdl: AT_soldier_guerrilla_base
@@ -500,4 +508,22 @@ class AT_soldier_aaf_officer_fatigues_ucpd_full: AT_soldier_aaf_officer_fatigues
 	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_ucpd.paa", "\apptac_uniforms\textures\guerilla_fatiges_ucpd.paa"};
 	uniformClass = "AT_uniform_aaf_officer_fatigues_ucpd_full"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (3 COLOR DESERT JACKET) UNIT
+class AT_soldier_aaf_officer_fatigues_3_color_desert_jacket: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (3 Color Desert/Khaki)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_3_color_desert.paa", "\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_3_color_desert_jacket"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (3 COLOR DESERT FULL) UNIT
+class AT_soldier_aaf_officer_fatigues_3_color_desert_full: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (3 Color Desert)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_3_color_desert.paa", "\apptac_uniforms\textures\guerilla_fatiges_3_color_desert.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_3_color_desert_full"; // This links this soldier to a particular uniform.
 };

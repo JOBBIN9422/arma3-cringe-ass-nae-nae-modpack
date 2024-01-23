@@ -459,6 +459,21 @@ class AT_uniform_guerilla_fatigues_ucpd: Fatigues_Base
 	};
 };
 
+//GUERILLA FATIGUES (3 COLOR DESERT) UNIFORM
+class AT_uniform_guerilla_fatigues_3_color_desert: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (3 Color Desert)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_3_color_desert;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
 /*
 //GUERILLA FATIGUES (MGS3 ERDL) UNIFORM
 class AT_uniform_guerilla_fatigues_mgs3_erdl: Fatigues_Base
@@ -846,6 +861,36 @@ class AT_uniform_aaf_officer_fatigues_ucpd_full: AAF_Officer_Fatigues_Base
 	{
 		uniformModel = "-";
 		uniformClass = AT_soldier_aaf_officer_fatigues_ucpd_full;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (3 COLOR DESERT JACKET) UNIFORM
+class AT_uniform_aaf_officer_fatigues_3_color_desert_jacket: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (3 Color Desert/Khaki)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_3_color_desert_jacket;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (3 COLOR DESERT FULL) UNIFORM
+class AT_uniform_aaf_officer_fatigues_3_color_desert_full: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (3 Color Desert)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_3_color_desert_full;
 		containerClass = Supply40;
 		mass = 40;
 	};
