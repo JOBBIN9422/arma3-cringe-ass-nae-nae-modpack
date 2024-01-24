@@ -474,6 +474,21 @@ class AT_uniform_guerilla_fatigues_3_color_desert: Fatigues_Base
 	};
 };
 
+//GUERILLA FATIGUES (SOLO CUP) UNIFORM
+class AT_uniform_guerilla_fatigues_solo_cup: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Solo Cup)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_solo_cup;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
 /*
 //GUERILLA FATIGUES (MGS3 ERDL) UNIFORM
 class AT_uniform_guerilla_fatigues_mgs3_erdl: Fatigues_Base
@@ -891,6 +906,36 @@ class AT_uniform_aaf_officer_fatigues_3_color_desert_full: AAF_Officer_Fatigues_
 	{
 		uniformModel = "-";
 		uniformClass = AT_soldier_aaf_officer_fatigues_3_color_desert_full;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (SOLO CUP JACKET) UNIFORM
+class AT_uniform_aaf_officer_fatigues_solo_cup_jacket: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (Solo Cup/Khaki)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_solo_cup_jacket;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//AAF OFFICER FATIGUES (SOLO CUP FULL) UNIFORM
+class AT_uniform_aaf_officer_fatigues_solo_cup_full: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (Solo Cup)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_solo_cup_full;
 		containerClass = Supply40;
 		mass = 40;
 	};

@@ -308,6 +308,14 @@ class V_carrier_3_color_desert: V_carrier_rig_base
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_3_color_desert.paa"};
 };
 
+//leopard carrier rig
+class V_carrier_leopard: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (MGS3 Leopard)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_leopard.paa"};
+};
+
 //VIPER VEST
 class V_vest_viper: V_press_vest_base
 {

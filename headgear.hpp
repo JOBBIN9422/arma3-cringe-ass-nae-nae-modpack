@@ -64,7 +64,7 @@ class H_combat_helmet_caution_stripes: H_combat_helmet_base
 };
 
 //UCP-D helmet
-class H_combat_helmet_caution_ucpd: H_combat_helmet_base
+class H_combat_helmet_ucpd: H_combat_helmet_base
 {
 	scope = 2;
 	displayName = "Combat Helmet (UCP-D)";
@@ -72,7 +72,7 @@ class H_combat_helmet_caution_ucpd: H_combat_helmet_base
 };
 
 //UCP helmet
-class H_combat_helmet_caution_ucp: H_combat_helmet_base
+class H_combat_helmet_ucp: H_combat_helmet_base
 {
 	scope = 2;
 	displayName = "Combat Helmet (UCP)";
@@ -80,7 +80,7 @@ class H_combat_helmet_caution_ucp: H_combat_helmet_base
 };
 
 //LV helmet
-class H_combat_helmet_caution_drip: H_combat_helmet_base
+class H_combat_helmet_drip: H_combat_helmet_base
 {
 	scope = 2;
 	displayName = "Combat Helmet (Drip)";
@@ -88,7 +88,7 @@ class H_combat_helmet_caution_drip: H_combat_helmet_base
 };
 
 //drip mono helmet
-class H_combat_helmet_caution_drip_mono: H_combat_helmet_base
+class H_combat_helmet_drip_mono: H_combat_helmet_base
 {
 	scope = 2;
 	displayName = "Combat Helmet (Drip Monochrome)";
@@ -96,7 +96,7 @@ class H_combat_helmet_caution_drip_mono: H_combat_helmet_base
 };
 
 //DNC helmet
-class H_combat_helmet_caution_dnc: H_combat_helmet_base
+class H_combat_helmet_dnc: H_combat_helmet_base
 {
 	scope = 2;
 	displayName = "Combat Helmet (Desert Night Camo)";
@@ -104,9 +104,57 @@ class H_combat_helmet_caution_dnc: H_combat_helmet_base
 };
 
 //Chocolate chip helmet
-class H_combat_helmet_caution_chocolate_chip: H_combat_helmet_base
+class H_combat_helmet_chocolate_chip: H_combat_helmet_base
 {
 	scope = 2;
 	displayName = "Combat Helmet (Chocolate Chip)";
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_chocolate_chip.paa"};
+};
+
+//Butan 1 helmet
+class H_combat_helmet_butan_1: H_combat_helmet_base
+{
+	scope = 2;
+	displayName = "Combat Helmet (Butan 1)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_butan_1.paa"};
+};
+
+//Butan 2 helmet
+class H_combat_helmet_butan_2: H_combat_helmet_base
+{
+	scope = 2;
+	displayName = "Combat Helmet (Butan 2)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_butan_2.paa"};
+};
+
+//Realtree helmet
+class H_combat_helmet_realtree: H_combat_helmet_base
+{
+	scope = 2;
+	displayName = "Combat Helmet (RealTree)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_realtree.paa"};
+};
+
+//Ahegao helmet
+class H_combat_helmet_ahegao: H_combat_helmet_base
+{
+	scope = 2;
+	displayName = "Combat Helmet (Ahegao)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_ahegao.paa"};
+};
+
+//Solo cup helmet
+class H_combat_helmet_solo_cup: H_combat_helmet_base
+{
+	scope = 2;
+	displayName = "Combat Helmet (Solo Cup)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_solo_cup.paa"};
+};
+
+//leopard helmet
+class H_combat_helmet_leopard: H_combat_helmet_base
+{
+	scope = 2;
+	displayName = "Combat Helmet (MGS3 Leopard)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_leopard.paa"};
 };

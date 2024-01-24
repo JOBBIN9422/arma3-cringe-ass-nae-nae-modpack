@@ -258,6 +258,15 @@ class AT_soldier_guerilla_fatigues_3_color_desert: AT_soldier_guerrilla_base
 	uniformClass = "AT_uniform_guerilla_fatigues_3_color_desert"; // This links this soldier to a particular uniform.
 };
 
+//GUERILLA FATIGUES (SOLO CUP) UNIT
+class AT_soldier_guerilla_fatigues_solo_cup: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (Solo Cup)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_solo_cup.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_solo_cup"; // This links this soldier to a particular uniform.
+};
+
+
 /*
 //GUERILLA FATIGUES (MGS3 ERDL) UNIT
 class AT_soldier_guerilla_fatigues_mgs3_erdl: AT_soldier_guerrilla_base
@@ -526,4 +535,22 @@ class AT_soldier_aaf_officer_fatigues_3_color_desert_full: AT_soldier_aaf_office
 	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_3_color_desert.paa", "\apptac_uniforms\textures\guerilla_fatiges_3_color_desert.paa"};
 	uniformClass = "AT_uniform_aaf_officer_fatigues_3_color_desert_full"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (SOLO CUP JACKET) UNIT
+class AT_soldier_aaf_officer_fatigues_solo_cup_jacket: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (Solo Cup/Khaki)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_solo_cup.paa", "\A3\Characters_F_Bootcamp\Guerrilla\Data\ig_guerrilla_6_1_co.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_solo_cup_jacket"; // This links this soldier to a particular uniform.
+};
+
+//AAF OFFICER (3 COLOR DESERT FULL) UNIT
+class AT_soldier_aaf_officer_fatigues_solo_cup_full: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (Solo Cup)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_solo_cup.paa", "\apptac_uniforms\textures\guerilla_fatiges_solo_cup.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_solo_cup_full"; // This links this soldier to a particular uniform.
 };
