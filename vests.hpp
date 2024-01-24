@@ -300,6 +300,14 @@ class V_carrier_dnc: V_carrier_rig_base
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_dnc.paa"};
 };
 
+//3 Color Desert carrier rig
+class V_carrier_3_color_desert: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (3 Color Desert)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_3_color_desert.paa"};
+};
+
 //VIPER VEST
 class V_vest_viper: V_press_vest_base
 {
