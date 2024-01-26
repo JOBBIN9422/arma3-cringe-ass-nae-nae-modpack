@@ -158,3 +158,35 @@ class H_combat_helmet_leopard: H_combat_helmet_base
 	displayName = "Combat Helmet (MGS3 Leopard)";
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_leopard.paa"};
 };
+
+//flannel helmet
+class H_combat_helmet_flannel: H_combat_helmet_base
+{
+	scope = 2;
+	displayName = "Combat Helmet (Flannel)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_flannel.paa"};
+};
+
+//denim helmet
+class H_combat_helmet_denim: H_combat_helmet_base
+{
+	scope = 2;
+	displayName = "Combat Helmet (Denim)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_denim.paa"};
+};
+
+//tiger stripe helmet
+class H_combat_helmet_tiger_stripe: H_combat_helmet_base
+{
+	scope = 2;
+	displayName = "Combat Helmet (Tiger Stripe)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_tiger_stripe.paa"};
+};
+
+//A-TACS helmet
+class H_combat_helmet_atacs: H_combat_helmet_base
+{
+	scope = 2;
+	displayName = "Combat Helmet (A-TACS)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_atacs.paa"};
+};

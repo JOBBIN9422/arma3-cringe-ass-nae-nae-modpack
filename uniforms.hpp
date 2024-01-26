@@ -489,6 +489,81 @@ class AT_uniform_guerilla_fatigues_solo_cup: Fatigues_Base
 	};
 };
 
+//GUERILLA FATIGUES (FLANNEL) UNIFORM
+class AT_uniform_guerilla_fatigues_flannel: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Flannel/Denim)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_flannel;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (ZOIDBERG) UNIFORM
+class AT_uniform_guerilla_fatigues_zoidberg: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Zoidberg)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_zoidberg;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (DIAMOND DOGS) UNIFORM
+class AT_uniform_guerilla_fatigues_diamond_dogs: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Diamond Dogs)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_diamond_dogs;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (TIGER STRIPE) UNIFORM
+class AT_uniform_guerilla_fatigues_tiger_stripe: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Tiger Stripe)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_tiger_stripe;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
+//GUERILLA FATIGUES (A-TACS) UNIFORM
+class AT_uniform_guerilla_fatigues_atacs: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (A-TACS)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_atacs;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
 /*
 //GUERILLA FATIGUES (MGS3 ERDL) UNIFORM
 class AT_uniform_guerilla_fatigues_mgs3_erdl: Fatigues_Base

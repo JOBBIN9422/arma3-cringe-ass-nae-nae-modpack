@@ -316,6 +316,38 @@ class V_carrier_leopard: V_carrier_rig_base
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_leopard.paa"};
 };
 
+//flannel carrier rig
+class V_carrier_flannel: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Flannel)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_flannel.paa"};
+};
+
+//denim carrier rig
+class V_carrier_denim: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Denim)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_denim.paa"};
+};
+
+//tiger stripe carrier rig
+class V_carrier_tiger_stripe: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Tiger Stripe)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_tiger_stripe.paa"};
+};
+
+//a-tacs carrier rig
+class V_carrier_atacs: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (A-TACS)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_atacs.paa"};
+};
+
 //VIPER VEST
 class V_vest_viper: V_press_vest_base
 {

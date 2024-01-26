@@ -266,6 +266,45 @@ class AT_soldier_guerilla_fatigues_solo_cup: AT_soldier_guerrilla_base
 	uniformClass = "AT_uniform_guerilla_fatigues_solo_cup"; // This links this soldier to a particular uniform.
 };
 
+//GUERILLA FATIGUES (FLANNEL) UNIT
+class AT_soldier_guerilla_fatigues_flannel: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (Flannel/Denim)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_flannel.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_flannel"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (ZOIDBERG) UNIT
+class AT_soldier_guerilla_fatigues_zoidberg: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (Zoidberg)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_zoidberg.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_zoidberg"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (DIAMOND DOGS) UNIT
+class AT_soldier_guerilla_fatigues_diamond_dogs: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (Diamond Dogs)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_diamond_dogs.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_diamond_dogs"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (TIGER STRIPE) UNIT
+class AT_soldier_guerilla_fatigues_tiger_stripe: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (Tiger Stripe)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_tiger_stripe.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_tiger_stripe"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (A-TACS) UNIT
+class AT_soldier_guerilla_fatigues_atacs: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (A-TACS)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_atacs.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_atacs"; // This links this soldier to a particular uniform.
+};
 
 /*
 //GUERILLA FATIGUES (MGS3 ERDL) UNIT
