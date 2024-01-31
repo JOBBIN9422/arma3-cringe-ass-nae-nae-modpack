@@ -306,6 +306,14 @@ class AT_soldier_guerilla_fatigues_atacs: AT_soldier_guerrilla_base
 	uniformClass = "AT_uniform_guerilla_fatigues_atacs"; // This links this soldier to a particular uniform.
 };
 
+//GUERILLA FATIGUES (FLECKTARN) UNIT
+class AT_soldier_guerilla_fatigues_flecktarn: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (Flecktarn)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_flecktarn.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_flecktarn"; // This links this soldier to a particular uniform.
+};
+
 /*
 //GUERILLA FATIGUES (MGS3 ERDL) UNIT
 class AT_soldier_guerilla_fatigues_mgs3_erdl: AT_soldier_guerrilla_base

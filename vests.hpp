@@ -348,6 +348,14 @@ class V_carrier_atacs: V_carrier_rig_base
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_atacs.paa"};
 };
 
+//flecktarn carrier rig
+class V_carrier_flecktarn: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Flecktarn)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_flecktarn.paa"};
+};
+
 //VIPER VEST
 class V_vest_viper: V_press_vest_base
 {

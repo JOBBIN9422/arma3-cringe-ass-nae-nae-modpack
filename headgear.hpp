@@ -1,5 +1,6 @@
 class HeadgearItem;
 class H_HelmetB;
+class H_Cap_red;
 
 class H_combat_helmet_base: H_HelmetB
 {
@@ -30,6 +31,26 @@ class H_combat_helmet_base: H_HelmetB
 		};
 	};
 };
+
+class H_cap_base: H_Cap_red
+{
+	author = "JOBBIN";
+	displayName = "Cap Template";
+	scope = 0;
+	weaponPoolAvailable = 1;
+	picture = "\A3\characters_f\Data\UI\icon_H_cap_red_CA.paa";
+	model = "\A3\Characters_F\Common\capb.p3d";
+	hiddenSelections[] = { "camo" };
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Data\capb_red_co.paa"};
+		
+	/*class ItemInfo : HeadgearItem
+	{
+		mass = 5;
+		uniformModel = "\A3\Characters_F\Common\capb.p3d";
+		modelSides[] = { TCivilian, TWest };
+		hiddenSelections[] = { "camo" };
+	}; */
+}
 
 //M81 helmet
 class H_combat_helmet_n81: H_combat_helmet_base
@@ -189,4 +210,36 @@ class H_combat_helmet_atacs: H_combat_helmet_base
 	scope = 2;
 	displayName = "Combat Helmet (A-TACS)";
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_atacs.paa"};
+};
+
+//alpenflage helmet
+class H_combat_helmet_alpenflage: H_combat_helmet_base
+{
+	scope = 2;
+	displayName = "Combat Helmet (Alpenflage)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_alpenflage.paa"};
+};
+
+//ldf helmet
+class H_combat_helmet_ldf: H_combat_helmet_base
+{
+	scope = 2;
+	displayName = "Combat Helmet (LDF Woodland)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_ldf.paa"};
+};
+
+//flecktarn helmet
+class H_combat_helmet_flecktarn: H_combat_helmet_base
+{
+	scope = 2;
+	displayName = "Combat Helmet (Flecktarn)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_flecktarn.paa"};
+};
+
+//A-TACS cap
+class H_capb_atacs: H_cap_base
+{
+	scope = 2;
+	displayName = "Cap (A-TACS)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\capb_atacs.paa"};
 };

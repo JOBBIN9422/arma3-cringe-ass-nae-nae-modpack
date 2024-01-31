@@ -564,6 +564,21 @@ class AT_uniform_guerilla_fatigues_atacs: Fatigues_Base
 	};
 };
 
+//GUERILLA FATIGUES (FLECKTARN) UNIFORM
+class AT_uniform_guerilla_fatigues_flecktarn: Fatigues_Base
+{
+	scope = 2;
+	displayName = "Guerrilla Fatigues (Flecktarn)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_guerilla_fatigues_flecktarn;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
+
 /*
 //GUERILLA FATIGUES (MGS3 ERDL) UNIFORM
 class AT_uniform_guerilla_fatigues_mgs3_erdl: Fatigues_Base
