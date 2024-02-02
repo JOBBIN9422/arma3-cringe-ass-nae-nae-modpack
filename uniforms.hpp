@@ -1031,3 +1031,17 @@ class AT_uniform_aaf_officer_fatigues_solo_cup_full: AAF_Officer_Fatigues_Base
 	};
 };
 
+//AAF OFFICER FATIGUES (MONOFOX) UNIFORM
+class AT_uniform_aaf_officer_fatigues_monofox: AAF_Officer_Fatigues_Base
+{
+	scope = 2;
+	displayName = "Fatigues Cuffed (MonoFox)"
+		
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = AT_soldier_aaf_officer_fatigues_monofox;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};

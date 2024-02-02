@@ -243,3 +243,11 @@ class H_capb_atacs: H_cap_base
 	displayName = "Cap (A-TACS)";
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\capb_atacs.paa"};
 };
+
+//tism cap
+class H_capb_tism: H_cap_base
+{
+	scope = 2;
+	displayName = "Cap (Autism)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\capb_tism.paa"};
+};

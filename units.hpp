@@ -601,3 +601,12 @@ class AT_soldier_aaf_officer_fatigues_solo_cup_full: AT_soldier_aaf_officer_fati
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_solo_cup.paa", "\apptac_uniforms\textures\guerilla_fatiges_solo_cup.paa"};
 	uniformClass = "AT_uniform_aaf_officer_fatigues_solo_cup_full"; // This links this soldier to a particular uniform.
 };
+
+//AAF OFFICER (MonoFox) UNIT
+class AT_soldier_aaf_officer_fatigues_monofox: AT_soldier_aaf_officer_fatigues
+{					
+	displayName = "Fatigues Cuffed (MonoFox)";
+	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_monofox.paa", "\apptac_uniforms\textures\guerilla_fatiges_flecktarn.paa"};
+	uniformClass = "AT_uniform_aaf_officer_fatigues_monofox"; // This links this soldier to a particular uniform.
+};
