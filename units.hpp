@@ -28,6 +28,28 @@ class AT_soldier_mcam_tshirt_base: B_Soldier_base_F
 	hiddenSelections[] = {"Camo", "Camo2", "insignia"};
 };
 
+//BLUFOR FATIGUES BASE CLASS
+class AT_soldier_blufor_fatigues_base: B_Soldier_base_F
+{
+	author = "JOBBIN";
+	scope = 1;							
+	scopeCurator = 0;					
+	scopeArsenal = 0;					
+	model = "\A3\Characters_F\BLUFOR\b_soldier_01.p3d";
+	hiddenSelections[] = {"Camo", "insignia"};
+};
+
+//BLUFOR FATIGUES CUFFED BASE CLASS
+class AT_soldier_blufor_fatigues_cuffed_sleeves_base: B_Soldier_base_F
+{
+	author = "JOBBIN";
+	scope = 1;							
+	scopeCurator = 0;					
+	scopeArsenal = 0;					
+	model = "\A3\Characters_F\BLUFOR\b_soldier_03.p3d";
+	hiddenSelections[] = {"Camo", "insignia"};
+};
+
 //GUERRILLA FATIGUES BASE UNIT
 class AT_soldier_guerrilla_base: B_Soldier_base_F
 {
@@ -312,6 +334,22 @@ class AT_soldier_guerilla_fatigues_flecktarn: AT_soldier_guerrilla_base
 	displayName = "Guerrilla (Flecktarn)";
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_flecktarn.paa"};
 	uniformClass = "AT_uniform_guerilla_fatigues_flecktarn"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (JONAH) UNIT
+class AT_soldier_guerilla_fatigues_jonah: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (Jonah)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_jonah.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_jonah"; // This links this soldier to a particular uniform.
+};
+
+//GUERILLA FATIGUES (GREEN PLAID) UNIT
+class AT_soldier_guerilla_fatigues_green_plaid: AT_soldier_guerrilla_base
+{				
+	displayName = "Guerrilla (Green Plaid)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\guerilla_fatiges_green_plaid.paa"};
+	uniformClass = "AT_uniform_guerilla_fatigues_green_plaid"; // This links this soldier to a particular uniform.
 };
 
 /*
@@ -609,4 +647,430 @@ class AT_soldier_aaf_officer_fatigues_monofox: AT_soldier_aaf_officer_fatigues
 	//AAF officer fatigues use two separate textures for jacket and pants (pants are referenced from guerilla fatigues texture)
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\aaf_officer_fatigues_monofox.paa", "\apptac_uniforms\textures\guerilla_fatiges_flecktarn.paa"};
 	uniformClass = "AT_uniform_aaf_officer_fatigues_monofox"; // This links this soldier to a particular uniform.
+};
+
+
+//BLUFOR FATIGUES M81 UNIT
+class AT_soldier_clothing1_m81: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (M81)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_m81.paa"};
+	uniformClass = "AT_uniform_clothing1_m81"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES M81 CUFFED UNIT
+class AT_soldier_clothing1_m81_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (M81/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_m81.paa"};
+	uniformClass = "AT_uniform_clothing1_m81_cuffed_sleeves"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES M81 SHIRT UNIT
+class AT_soldier_clothing1_m81_shirt: AT_soldier_mcam_tshirt_base
+{
+	displayName = "Combat Fatigues (M81 Undershirt)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_m81.paa", "\apptac_uniforms\textures\basicbody_m81.paa"};
+	uniformClass = "AT_uniform_clothing1_m81_shirt";
+};
+
+//BLUFOR FATIGUES MULTICAM UNIT
+class AT_soldier_clothing1_multicam: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (Multicam)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_multicam.paa"};
+	uniformClass = "AT_uniform_clothing1_multicam"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES MULTICAM CUFFED UNIT
+class AT_soldier_clothing1_multicam_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (Multicam/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_multicam.paa"};
+	uniformClass = "AT_uniform_clothing1_multicam_cuffed_sleeves"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES MULTICAM SHIRT UNIT
+class AT_soldier_clothing1_multicam_shirt: AT_soldier_mcam_tshirt_base
+{					
+	displayName = "Combat Fatigues (Multicam Undershirt)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_multicam.paa", "\apptac_uniforms\textures\basicbody_multicam.paa"};
+	uniformClass = "AT_uniform_clothing1_multicam_shirt"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES FLECKTARN UNIT
+class AT_soldier_clothing1_flecktarn: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (Flecktarn)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_flecktarn.paa"};
+	uniformClass = "AT_uniform_clothing1_flecktarn"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES FLECKTARN CUFFED UNIT
+class AT_soldier_clothing1_flecktarn_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (Flecktarn/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_flecktarn.paa"};
+	uniformClass = "AT_uniform_clothing1_flecktarn_cuffed_sleeves"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES FLECKTARN SHIRT UNIT
+class AT_soldier_clothing1_flecktarn_shirt: AT_soldier_mcam_tshirt_base
+{					
+	displayName = "Combat Fatigues (Flecktarn Undershirt)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_flecktarn.paa", "\apptac_uniforms\textures\basicbody_flecktarn.paa"};
+	uniformClass = "AT_uniform_clothing1_flecktarn_shirt"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES REALTREE UNIT
+class AT_soldier_clothing1_realtree: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (RealTree)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_realtree.paa"};
+	uniformClass = "AT_uniform_clothing1_realtree"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES REALTREE CUFFED UNIT
+class AT_soldier_clothing1_realtree_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (RealTree/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_realtree.paa"};
+	uniformClass = "AT_uniform_clothing1_realtree_cuffed_sleeves"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES REALTREE SHIRT UNIT
+class AT_soldier_clothing1_realtree_shirt: AT_soldier_mcam_tshirt_base
+{					
+	displayName = "Combat Fatigues (RealTree Undershirt)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_realtree.paa", "\apptac_uniforms\textures\basicbody_realtree.paa"};
+	uniformClass = "AT_uniform_clothing1_realtree_shirt"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES SHIRT (AUBIN THE ELDER) UNIT
+class AT_soldier_clothing1_realtree_shirt_aubin: AT_soldier_mcam_tshirt_base
+{					
+	displayName = "Combat Fatigues (Aubin the Elder)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_realtree.paa", "\apptac_uniforms\textures\basicbody_aubin.paa"};
+	uniformClass = "AT_uniform_clothing1_realtree_shirt_aubin"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES DIAMOND DOGS UNIT
+class AT_soldier_clothing1_diamond_dogs: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (Diamond Dogs)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_diamond_dogs.paa"};
+	uniformClass = "AT_uniform_clothing1_diamond_dogs"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES DIAMOND DOGS CUFFED UNIT
+class AT_soldier_clothing1_diamond_dogs_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (Diamond Dogs/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_diamond_dogs.paa"};
+	uniformClass = "AT_uniform_clothing1_diamond_dogs_cuffed_sleeves"; // This links this soldier to a particular uniform.
+};
+
+
+//BLUFOR FATIGUES DIAMOND DOGS SHIRT UNIT
+class AT_soldier_clothing1_diamond_dogs_shirt: AT_soldier_mcam_tshirt_base
+{					
+	displayName = "Combat Fatigues (Diamond Dogs Undershirt)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_diamond_dogs.paa", "\apptac_uniforms\textures\basicbody_diamond_dogs.paa"};
+	uniformClass = "AT_uniform_clothing1_diamond_dogs_shirt"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES FLANNEL UNIT
+class AT_soldier_clothing1_flannel: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (Flannel/Tan Pants)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_flannel.paa"};
+	uniformClass = "AT_uniform_clothing1_flannel"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES FLANNEL CUFFED UNIT
+class AT_soldier_clothing1_flannel_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (Flannel/Cuffed Sleeves/Tan Pants)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_flannel.paa"};
+	uniformClass = "AT_uniform_clothing1_flannel_cuffed_sleeves"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES FLANNEL SHIRT UNIT
+class AT_soldier_clothing1_flannel_shirt: AT_soldier_mcam_tshirt_base
+{					
+	displayName = "Combat Fatigues (Flannel Undershirt/Tan Pants)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_flannel.paa", "\apptac_uniforms\textures\basicbody_flannel.paa"};
+	uniformClass = "AT_uniform_clothing1_flannel_shirt"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES 3 COLOR DESERT UNIT
+class AT_soldier_clothing1_3_color_desert: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (3 Color Desert)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_3_color_desert.paa"};
+	uniformClass = "AT_uniform_clothing1_3_color_desert"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES 3 COLOR DESERT CUFFED UNIT
+class AT_soldier_clothing1_3_color_desert_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (3 Color Desert/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_3_color_desert.paa"};
+	uniformClass = "AT_uniform_clothing1_3_color_desert_cuffed_sleeves"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES 3 COLOR DESERT SHIRT UNIT
+class AT_soldier_clothing1_3_color_desert_shirt: AT_soldier_mcam_tshirt_base
+{					
+	displayName = "Combat Fatigues (3 Color Desert Undershirt)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_3_color_desert.paa", "\apptac_uniforms\textures\basicbody_3_color_desert.paa"};
+	uniformClass = "AT_uniform_clothing1_3_color_desert_shirt"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES CHOCOLATE CHIP UNIT
+class AT_soldier_clothing1_chocolate_chip: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (Chocolate Chip)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_chocolate_chip.paa"};
+	uniformClass = "AT_uniform_clothing1_chocolate_chip"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES CHOCOLATE CHIP CUFFED UNIT
+class AT_soldier_clothing1_chocolate_chip_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (Chocolate Chip/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_chocolate_chip.paa"};
+	uniformClass = "AT_uniform_clothing1_chocolate_chip_cuffed_sleeves"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES CHOCOLATE CHIP SHIRT UNIT
+class AT_soldier_clothing1_chocolate_chip_shirt: AT_soldier_mcam_tshirt_base
+{					
+	displayName = "Combat Fatigues (Chocolate Chip Undershirt)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_chocolate_chip.paa", "\apptac_uniforms\textures\basicbody_chocolate_chip.paa"};
+	uniformClass = "AT_uniform_clothing1_chocolate_chip_shirt"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES UCP UNIT
+class AT_soldier_clothing1_ucp: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (UCP)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_ucp.paa"};
+	uniformClass = "AT_uniform_clothing1_ucp"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES UCP CUFFED UNIT
+class AT_soldier_clothing1_ucp_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (UCP/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_ucp.paa"};
+	uniformClass = "AT_uniform_clothing1_ucp_cuffed_sleeves"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES UCP SHIRT UNIT
+class AT_soldier_clothing1_ucp_shirt: AT_soldier_mcam_tshirt_base
+{					
+	displayName = "Combat Fatigues (UCP Undershirt)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_ucp.paa", "\apptac_uniforms\textures\basicbody_ucp.paa"};
+	uniformClass = "AT_uniform_clothing1_ucp_shirt"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES UCP-D UNIT
+class AT_soldier_clothing1_ucpd: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (UCP-D)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_ucpd.paa"};
+	uniformClass = "AT_uniform_clothing1_ucpd"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES UCP-D CUFFED UNIT
+class AT_soldier_clothing1_ucpd_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (UCP-D/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_ucpd.paa"};
+	uniformClass = "AT_uniform_clothing1_ucpd_cuffed_sleeves"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES UCP-D SHIRT UNIT
+class AT_soldier_clothing1_ucpd_shirt: AT_soldier_mcam_tshirt_base
+{					
+	displayName = "Combat Fatigues (UCP-D Undershirt)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_ucpd.paa", "\apptac_uniforms\textures\basicbody_ucpd.paa"};
+	uniformClass = "AT_uniform_clothing1_ucpd_shirt"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES GREEN PLAID UNIT
+class AT_soldier_clothing1_green_plaid: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (Green Plaid)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_green_plaid.paa"};
+	uniformClass = "AT_uniform_clothing1_green_plaid"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES GREEN PLAID CUFFED UNIT
+class AT_soldier_clothing1_green_plaid_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (Green Plaid/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_green_plaid.paa"};
+	uniformClass = "AT_uniform_clothing1_green_plaid_cuffed_sleeves"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES GREEN PLAID SHIRT UNIT
+class AT_soldier_clothing1_green_plaid_shirt: AT_soldier_mcam_tshirt_base
+{					
+	displayName = "Combat Fatigues (Green Plaid Undershirt)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_green_plaid.paa", "\apptac_uniforms\textures\basicbody_green_plaid.paa"};
+	uniformClass = "AT_uniform_clothing1_green_plaid_shirt"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES AOR2 UNIT
+class AT_soldier_clothing1_aor2: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (AOR2)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_aor2.paa"};
+	uniformClass = "AT_uniform_clothing1_aor2"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES AOR2 CUFFED UNIT
+class AT_soldier_clothing1_aor2_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (AOR2/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_aor2.paa"};
+	uniformClass = "AT_uniform_clothing1_aor2"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES AOR2 SHIRT UNIT
+class AT_soldier_clothing1_aor2_shirt: AT_soldier_mcam_tshirt_base
+{					
+	displayName = "Combat Fatigues (AOR2 Undershirt)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_aor2.paa", "\apptac_uniforms\textures\basicbody_aor2.paa"};
+	uniformClass = "AT_uniform_clothing1_aor2_shirt"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES STEVEN UNIT
+class AT_soldier_clothing1_steven: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (StevenAlex)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_steven.paa"};
+	uniformClass = "AT_uniform_clothing1_steven"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES STEVEN CUFFED UNIT
+class AT_soldier_clothing1_steven_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (StevenAlex/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_steven.paa"};
+	uniformClass = "AT_uniform_clothing1_steven"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES CBP AMO UNIT
+class AT_soldier_clothing1_cbp_amo: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (CBP AMO)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_cbp_amo.paa"};
+	uniformClass = "AT_uniform_clothing1_cbp_amo"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES CBP AMO CUFFED SLEEVES UNIT
+class AT_soldier_clothing1_cbp_amo_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (CBP AMO/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_cbp_amo.paa"};
+	uniformClass = "AT_uniform_clothing1_cbp_amo_cuffed_sleeves"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES CBP UNIT
+class AT_soldier_clothing1_cbp: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (CBP)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_cbp.paa"};
+	uniformClass = "AT_uniform_clothing1_cbp"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES CBP CUFFED SLEEVES UNIT
+class AT_soldier_clothing1_cbp_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (CBP/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_cbp.paa"};
+	uniformClass = "AT_uniform_clothing1_cbp_cuffed_sleeves"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES OD GREEN UNIT
+class AT_soldier_clothing1_od_green: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (OD Green)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_od_green.paa"};
+	uniformClass = "AT_uniform_clothing1_od_green"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES OD GREEN SLEEVES UNIT
+class AT_soldier_clothing1_od_green_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (OD Green/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_od_green.paa"};
+	uniformClass = "AT_uniform_clothing1_od_green_cuffed_sleeves"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES TIGER STRIPES UNIT
+class AT_soldier_clothing1_tiger_stripes: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (Tiger Stripes)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_tiger_stripe.paa"};
+	uniformClass = "AT_uniform_clothing1_tiger_stripes"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES TIGER STRIPES CUFFED SLEEVES UNIT
+class AT_soldier_clothing1_tiger_stripes_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (Tiger Stripes/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_tiger_stripe.paa"};
+	uniformClass = "AT_uniform_clothing1_od_green_tiger_stripes"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES FBI UNIT
+class AT_soldier_clothing1_fbi: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (FBI SWAT)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_fbi.paa"};
+	uniformClass = "AT_uniform_clothing1_fbi"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES FBI CUFFED SLEEVES UNIT
+class AT_soldier_clothing1_fbi_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (FBI SWAT/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_fbi.paa"};
+	uniformClass = "AT_uniform_clothing1_fbi_cuffed_sleeves"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES ATF UNIT
+class AT_soldier_clothing1_atf: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (ATF SWAT)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_atf.paa"};
+	uniformClass = "AT_uniform_clothing1_atf"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES FBI CUFFED SLEEVES UNIT
+class AT_soldier_clothing1_atf_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (ATF SWAT/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_atf.paa"};
+	uniformClass = "AT_uniform_clothing1_atf_cuffed_sleeves"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES SWAT UNIT
+class AT_soldier_clothing1_swat: AT_soldier_blufor_fatigues_base
+{					
+	displayName = "Combat Fatigues (SWAT)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_swat.paa"};
+	uniformClass = "AT_uniform_clothing1_swat"; // This links this soldier to a particular uniform.
+};
+
+//BLUFOR FATIGUES FBI CUFFED SLEEVES UNIT
+class AT_soldier_clothing1_swat_cuffed_sleeves: AT_soldier_blufor_fatigues_cuffed_sleeves_base
+{					
+	displayName = "Combat Fatigues (SWAT/Cuffed Sleeves)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\clothing1_co_swat.paa"};
+	uniformClass = "AT_uniform_clothing1_swat_cuffed_sleeves"; // This links this soldier to a particular uniform.
 };

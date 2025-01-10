@@ -74,20 +74,20 @@ class V_carrier_rig_base : Vest_Camo_Base
 			class Chest
 			{
 				hitPointName = "HitChest";
-				armor = 20;
-				passThrough = 0.2;
+				armor = 16;
+				passThrough = 0.3;
 			};
 			class Diaphragm
 			{
 				hitpointName	= "HitDiaphragm";
-				armor			= 20;
-				passThrough		= 0.2;
+				armor			= 16;
+				passThrough		= 0.3;
 			};
 			class Abdomen
 			{
 				hitpointName	= "HitAbdomen";
-				armor			= 20;
-				passThrough		= 0.2;
+				armor			= 16;
+				passThrough		= 0.3;
 			};
 		};
 	};
@@ -354,6 +354,54 @@ class V_carrier_flecktarn: V_carrier_rig_base
 	scope = 2;
 	displayName = "Carrier Rig (Flecktarn)";
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_flecktarn.paa"};
+};
+
+//diamond dogs carrier rig
+class V_carrier_diamond_dogs: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (Diamond Dogs)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_diamond_dogs.paa"};
+};
+
+//CBP carrier rig
+class V_carrier_cbp: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (CBP)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_cbp.paa"};
+};
+
+//AMO carrier rig
+class V_carrier_AMO: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (AMO)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_amo.paa"};
+};
+
+//FBI carrier rig
+class V_carrier_fbi: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (FBI)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_fbi.paa"};
+};
+
+//ATF carrier rig
+class V_carrier_atf: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (ATF)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_atf.paa"};
+};
+
+//SWAT carrier rig
+class V_carrier_swat: V_carrier_rig_base
+{
+	scope = 2;
+	displayName = "Carrier Rig (SWAT)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\carrier_swat.paa"};
 };
 
 //VIPER VEST

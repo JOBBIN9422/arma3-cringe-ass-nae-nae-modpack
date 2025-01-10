@@ -236,6 +236,14 @@ class H_combat_helmet_flecktarn: H_combat_helmet_base
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_flecktarn.paa"};
 };
 
+//diamond dogs helmet
+class H_combat_helmet_diamond_dogs: H_combat_helmet_base
+{
+	scope = 2;
+	displayName = "Combat Helmet (Diamond Dogs)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\equip1_co_diamond_dogs.paa"};
+};
+
 //A-TACS cap
 class H_capb_atacs: H_cap_base
 {
@@ -250,4 +258,36 @@ class H_capb_tism: H_cap_base
 	scope = 2;
 	displayName = "Cap (Autism)";
 	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\capb_tism.paa"};
+};
+
+//multicam cap
+class H_capb_multicam: H_cap_base
+{
+	scope = 2;
+	displayName = "Cap (Multicam)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\capb_multicam.paa"};
+};
+
+//M81 cap
+class H_capb_m81: H_cap_base
+{
+	scope = 2;
+	displayName = "Cap (M81)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\capb_m81.paa"};
+};
+
+//RealTree cap
+class H_capb_realtree: H_cap_base
+{
+	scope = 2;
+	displayName = "Cap (RealTree)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\capb_realtree.paa"};
+};
+
+//Flecktarn cap
+class H_capb_flecktarn: H_cap_base
+{
+	scope = 2;
+	displayName = "Cap (Flecktarn)";
+	hiddenSelectionsTextures[] = {"\apptac_uniforms\textures\capb_flecktarn.paa"};
 };
